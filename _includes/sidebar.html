@@ -91,11 +91,8 @@
           {% endunless %}
         >
 
-          {% if entry.image %}
-            <i><img alt="link icon" style="width:18px;height:auto" src="{{ entry.image }}"></i>
-          {% else %}
-            <i class="{{ entry.icon }}"></i>
-          {% endif %}
+          <i class="{{ entry.icon }}"></i>
+          
         </a>
       {% endif %}
     {% endfor %}
