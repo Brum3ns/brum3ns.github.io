@@ -14,7 +14,8 @@
     <h1 class="site-title">
       <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
     </h1>
-    <p class="site-subtitle fst-italic mb-0">{{ site.tagline }}</p>
+    <b style="color:#bf3737">brumens@kali</b>:<b style="color:#4e7dc7">~</b>$<b><b class="blink">_</b>
+    <!--<p class="site-subtitle fst-italic mb-0">{{ site.tagline }}</p>-->
   </header>
   <!-- .profile-wrapper -->
 
@@ -89,7 +90,12 @@
             rel="{{ link_types }}"
           {% endunless %}
         >
-          <i class="{{ entry.icon }}"></i>
+
+          {% if entry.image %}
+            <img style="width:18px;height:auto" src="{{ entry.image }}">
+          {% else %}
+            <i class="{{ entry.icon }}"></i>
+          {% endif %}
         </a>
       {% endif %}
     {% endfor %}
