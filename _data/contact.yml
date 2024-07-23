@@ -14,25 +14,25 @@
   icon: "fas fa-rss"
   noblank: true
 
-#- type: hackthebox
-#  image: "/assets/img/hackthebox.png"
-#  url: "https://app.hackthebox.com/profile/Brumens"
-#
-#- type: yeswehack
-#  image: "/assets/img/yeswehack.png"
-#  url: "https://yeswehack.com/hunters/brumens"
-#
-#- type: hackerone
-#  image: "/assets/img/hackerone.png"
-#  url: "https://hackerone.com/brumens/?type=user"
-#
-#- type: intigriti
-#  image: "/assets/img/intigriti.png"
-#  url: "https://app.intigriti.com/researcher/profile/sadhack3r"
-#
-#- type: bugcrowd
-#  image: "/assets/img/bugcrowd.png"
-#  url: "https://bugcrowd.com/Brumens"
+- type: hackthebox
+  image: "/assets/img/hackthebox.png"
+  url: "https://app.hackthebox.com/profile/Brumens"
+
+- type: yeswehack
+  image: "/assets/img/yeswehack.png"
+  url: "https://yeswehack.com/hunters/brumens"
+
+- type: hackerone
+  image: "/assets/img/hackerone.png"
+  url: "https://hackerone.com/brumens/?type=user"
+
+- type: intigriti
+  image: "/assets/img/intigriti.png"
+  url: "https://app.intigriti.com/researcher/profile/sadhack3r"
+
+- type: bugcrowd
+  image: "/assets/img/bugcrowd.png"
+  url: "https://bugcrowd.com/Brumens"
 
 # Uncomment and complete the url below to enable more contact options
 #
