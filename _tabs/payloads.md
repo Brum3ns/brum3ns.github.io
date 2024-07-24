@@ -6,7 +6,7 @@ order: 3
 
 A list of payloads that I do use when hunting for vulnerabilities. Personaly, I rarly use exploitation payloads but instead detection payloads.
 
-> All payloads shown on this page are created by me. I provide a basic overview of my payloads Exploitation payloads and more advanced detection payloads will not be shared.
+> All payloads shown on this page are created by me. I provide a basic overview of my payloads, exploitation payloads and more advanced detection payloads will not be shared.
 {{'{'}}: .prompt-info }
 
 ## Polyglot payloads
