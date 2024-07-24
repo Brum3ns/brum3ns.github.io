@@ -29,6 +29,10 @@ To exploit an XSS and really show the impact. You first need to check some basic
 
 Fortunately for me, all of these were true. The session of our logged in user was not using the HttpOnly flag which allows client-side JavaScript to read our session. I was able to simply create a JavaScript exploit code to hijack the session from the victim and send the session in base64 form to my own server.
 
+Below is a visual example of the exploitation process
+![PDF ATO exploit process](/assets/img/pdf-ato.png)
+_Icons can be found at: [https://www.flaticon.com/](https://www.flaticon.com/){:target="_blank"}_
+
 ### Payload
 The payload (_exploit code_) I used is shown below:
 ```javascript
