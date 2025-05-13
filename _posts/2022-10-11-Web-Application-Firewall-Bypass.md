@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Web Application Firewall Bypass"
-tags: [web, hacking, bypass, yeswehack]
+tags: [web, hacking, bypass, yeswehack, firewall]
 categories: [research]
 ---
 
